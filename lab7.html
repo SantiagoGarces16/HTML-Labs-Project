@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Lab 7: Masonry</title>
+    <style>
+
+        body {
+            height: 100%;
+            margin: 0;
+            display: flex;
+        }
+
+        #sidebar {
+            display: flex;
+            flex: 0 0 132px;
+            height: 100vh;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            padding: 16px 0;
+            background: linear-gradient(#874914, #f78928);
+            font-size: 32px
+        }
+
+        #gallery {
+            display: flex;
+            flex: 1;
+            align-content: flex-start;
+            flex-wrap: wrap;
+            gap: 3px;
+            overflow-y: auto;
+            background: #fff
+        }
+
+        #gallery img {
+            display: flex;
+            flex: 1 1 180px;
+            width: auto;
+            min-width: 100px;
+            height: 136px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="sidebar">
+        <span>&#x1F4F7;<br>&#x1F5C4;&#xfe0f;<br>&#x2764;&#xfe0f;</span>
+        <span>&#x1F5D1;&#xfe0f;</span>
+    </div>
+    <div id="gallery">
+        <img style="flex: 1" src="https://picsum.photos/180/100">
+        <img style="flex: 2" src="https://picsum.photos/275/100">
+        <img style="flex: 3" src="https://picsum.photos/340/100">
+        <img style="flex: 4" src="https://picsum.photos/125/100">
+        <img style="flex: 5" src="https://picsum.photos/220/100">
+        <img style="flex: 6" src="https://picsum.photos/390/100">
+        <img style="flex: 7" src="https://picsum.photos/155/100">
+        <img style="flex: 8" src="https://picsum.photos/305/100">
+        <img style="flex: 9" src="https://picsum.photos/245/100">
+        <img style="flex: 10" src="https://picsum.photos/365/100">
+        <img style="flex: 11" src="https://picsum.photos/195/100">
+        <img style="flex: 12" src="https://picsum.photos/115/100">
+        <img style="flex: 13" src="https://picsum.photos/285/100">
+        <img style="flex: 14" src="https://picsum.photos/330/100">
+        <img style="flex: 15" src="https://picsum.photos/165/100">
+        <img style="flex: 16" src="https://picsum.photos/250/100">
+        <img style="flex: 17" src="https://picsum.photos/375/100">
+        <img style="flex: 18" src="https://picsum.photos/140/100">
+        <img style="flex: 19" src="https://picsum.photos/315/100">
+        <img style="flex: 20" src="https://picsum.photos/230/100">
+        <img style="flex: 21" src="https://picsum.photos/350/100">
+        <img style="flex: 22" src="https://picsum.photos/105/100">
+        <img style="flex: 23" src="https://picsum.photos/265/100">
+        <img style="flex: 24" src="https://picsum.photos/200/100">
+    </div>
+</body>
+
+</html>
